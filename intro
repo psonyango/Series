@@ -1,0 +1,29 @@
+import numpy as np
+
+import pandas as pd
+
+from pandas import DataFrame,Series
+
+x = np.array(list(np.random.rand(8)))
+
+x
+Out[5]: 
+array([ 0.6632689 ,  0.62341922,  0.414114  ,  0.36965825,  0.77690165,
+        0.74457475,  0.61052471,  0.24740182])
+
+type(x)
+Out[6]: numpy.ndarray
+
+s = Series(x)
+
+s
+Out[8]: 
+0    0.663269
+1    0.623419
+2    0.414114
+3    0.369658
+4    0.776902
+5    0.744575
+6    0.610525
+7    0.247402
+dtype: float64
